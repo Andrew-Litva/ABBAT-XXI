@@ -1,0 +1,587 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+a, button {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+/* .container {
+    width: 1224px;
+    margin: 0 auto;
+} */
+
+.footer {
+    padding-top: 83px;
+    background: #32508C;
+}
+
+.footer__footer {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    padding-bottom: 28px;
+}
+
+.footer__logo {
+    padding-right: 146px;
+    padding-bottom: 40px;
+}
+
+.footer__logo img {
+    margin-top: 4px;
+}
+
+.footer__catalog {
+    margin-top: -43px;
+    padding-right: 103px;
+}
+
+.fc__tittle {
+    margin-bottom: 31px;
+}
+
+.fc__tittle a {
+    width: 82px;
+    height: 24px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.fc_product {
+    margin-bottom: 12px;
+}
+
+.fc_product a {
+    width: 105px;
+    height: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.fc_product1 a {
+    width: 122px;
+    height: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/* .footer__about {
+    margin-top: -35px;
+    padding-right: 392px;
+} */
+
+.f_about {
+    margin-bottom: 17px;
+}
+
+.f_about a {
+    width: 158px;
+    height: 24px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.f_services {
+    margin-bottom: 16px;
+}
+
+.f_services a {
+    width: 71px;
+    height: 24px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.f_contacts a {
+    width: 104px;
+    height: 24px;
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer__link {
+    position: relative;
+    display: inline-grid;
+    margin-top: -2px;
+}
+
+.footer__link a {
+    width: 61px;
+    height: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.hr {
+    background: #87A0C8;
+    opacity: 0.3;
+}
+
+.footer__ab {
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.f_dev {
+    display: flex;
+    justify-content: space-between;
+}
+
+.year_work {
+    margin-left: -7px;
+    width: 206px;
+    height: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.dev_company {
+    margin-right: 6px;
+    width: 114px;
+    height: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.dev_company a {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+@media (max-width: 1884px) {
+    .conainer {
+        max-width: 1224px;
+    }
+    .footer {
+        position: relative;
+        padding-top: 88px;
+        background: #32508C;
+    }
+    .footer__footer {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 28px;
+    }
+    .footer__logo {
+        padding: 0;
+    }
+    .footer__logo a {
+        display: block;
+    }
+    .footer__logo img {
+        position: relative;
+        top: -5px;
+        margin-top: 0;
+    }
+    .footer__catalog {
+        padding: 0;
+        position: relative;
+        top: 20px;
+    }
+    .fc__tittle {
+        margin-bottom: 35px;
+    }
+    .fc__tittle a {
+        height: 16px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .fc__sink {
+        margin-bottom: 12px;
+    }
+    .fc__sink a {
+        color: #fff;
+        height: 16px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .footer__about {
+        position: relative;
+        padding: 0;
+        top: -2px;
+        left: -40px;
+    }
+    .f_about {
+        margin-bottom: 15px;
+    }
+    .f_about a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .footer__link {
+        margin-left: 0;
+    }
+    .footer__link a {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .footer__ab {
+        position: relative;
+        padding-top: 20px;
+    }
+    .f_dev {
+        display: flex;
+        justify-content: space-between;
+    }
+    .f_dev p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    .f_dev a {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 1224px) {
+    .conainer {
+        max-width: 768px;
+    }
+    .footer {
+        position: relative;
+        padding-top: 88px;
+        background: #32508C;
+    }
+    .footer__footer {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 28px;
+    }
+    .footer__logo {
+        padding: 0;
+    }
+    .footer__logo a {
+        display: block;
+    }
+    .footer__logo img {
+        position: relative;
+        top: -5px;
+        margin-top: 0;
+    }
+    .footer__catalog {
+        padding: 0;
+        position: relative;
+        top: 20px;
+    }
+    .fc__tittle {
+        margin-bottom: 35px;
+    }
+    .fc__tittle a {
+        height: 16px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .fc__sink {
+        margin-bottom: 12px;
+    }
+    .fc__sink a {
+        color: #fff;
+        height: 16px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .footer__about {
+        position: relative;
+        padding: 0;
+        top: -2px;
+        left: -40px;
+    }
+    .f_about {
+        margin-bottom: 15px;
+    }
+    .f_about a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .footer__link {
+        margin-left: 0;
+    }
+    .footer__link a {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .footer__ab {
+        position: relative;
+        padding-top: 20px;
+    }
+    .f_dev {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* .f_dev > p{
+        position: absolute; 
+        top: 44px;
+        left: 102px;
+    }
+    .f_dev > a{
+        position: absolute; 
+        top: 22px;
+        left: 140px;
+    } */
+}
+
+@media (max-width: 768px) {
+    .conainer {
+        max-width: 320px;
+    }
+    .footer {
+        position: relative;
+        padding-top: 88px;
+        background: #32508C;
+    }
+    .footer__footer {
+        display: block;
+    }
+    .footer__logo {
+        margin-bottom: 71px;
+    }
+    .footer__logo a {
+        display: block;
+        width: 140px;
+    }
+    .footer__logo img {
+        position: relative;
+        top: 1px;
+        margin-top: 0;
+    }
+    .footer__catalog {
+        margin-top: 0;
+        margin-bottom: 71px;
+    }
+    .fc__tittle {
+        margin-bottom: 15px;
+    }
+    .fc__tittle a {
+        font-family: 'Playfair Display SC', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    .fc__sink a {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .fc_product1 a {
+        width: 122px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer__about {
+        padding: 20px 0 60px 40px;
+    }
+    .f_about {
+        margin-bottom: 20px;
+    }
+    .f_about a {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .f_services a {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .f_contacts a {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .footer__link {
+        display: flex;
+        left: 0;
+    }
+    .footer__link a {
+        margin-right: 35px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .footer__ab {
+        position: relative;
+        /* left: 150px; */
+        padding-top: 20px;
+        padding-bottom: 84px;
+    }
+    .f_dev {
+        display: block;
+    }
+    .f_dev p {
+        position: absolute;
+        top: 44px;
+        left: 102px;
+    }
+    .f_dev a {
+        position: absolute;
+        top: 22px;
+        left: 140px;
+    }
+}
+
+@media (max-width: 320px) {
+    .conainer {
+        max-width: none;
+    }
+    .footer {
+        position: relative;
+        padding-top: 88px;
+        background: #32508C;
+    }
+    .footer__footer {
+        display: block;
+    }
+    .footer__logo {
+        margin-bottom: 71px;
+    }
+    .footer__logo a {
+        display: block;
+        width: 140px;
+    }
+    .footer__logo img {
+        position: relative;
+        top: 1px;
+        margin-top: 0;
+    }
+    .footer__catalog {
+        margin-top: 0;
+        margin-bottom: 71px;
+    }
+    .fc__tittle {
+        margin-bottom: 15px;
+    }
+    .fc__tittle a {
+        font-family: 'Playfair Display SC', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    .fc__sink a {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .fc_product1 a {
+        width: 122px;
+        height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer__about {
+        padding: 20px 0 60px -1px;
+    }
+    .f_about {
+        margin-bottom: 20px;
+    }
+    .f_about a {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .f_services a {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .f_contacts a {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .footer__link {
+        display: flex;
+        left: 0;
+    }
+    .footer__link a {
+        margin-right: 35px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .footer__ab {
+        position: relative;
+        left: -30px;
+        padding-top: 20px;
+        padding-bottom: 84px;
+    }
+    .f_dev {
+        display: block;
+    }
+    .f_dev p {
+        position: absolute;
+        top: 44px;
+        left: 102px;
+    }
+    .f_dev a {
+        position: absolute;
+        top: 22px;
+        left: 140px;
+    }
+}
